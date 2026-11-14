@@ -1,4 +1,4 @@
-/**
+/** sadsadsa
  * CONFIGURAÇÃO DE IMAGENS E VÍDEOS — STALPLAT
  * Edite somente este arquivo para alterar as mídias do site.
  * Os caminhos são relativos ao index.html. URLs https:// também funcionam.
