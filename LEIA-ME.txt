@@ -1,0 +1,23 @@
+STALPLAT — SITE COMPLETO
+
+Arquivos principais:
+- index.html: estrutura do site
+- styles.css: todos os estilos
+- script.js: interações e dados do portfólio
+- assets/: mesmas imagens e vídeos do site publicado
+- icons/: ícones do aplicativo
+- manifest.webmanifest e sw.js: instalação como aplicativo web
+- posts.json: cópia editável do catálogo de registros
+
+COMO ABRIR
+1. Extraia o ZIP inteiro, mantendo as pastas.
+2. Abra index.html no navegador.
+As mídias estão incluídas; as fontes externas usam internet.
+
+COMO PUBLICAR
+Envie todo o conteúdo desta pasta para uma hospedagem estática com HTTPS.
+A instalação do aplicativo precisa de HTTPS ou localhost.
+
+COMO EDITAR
+Edite os arquivos HTML, CSS e JS em qualquer editor. Os dados usados pela galeria estão em STALPLAT_POSTS no início de script.js. posts.json é uma cópia de referência.
+Ao publicar alterações, atualize a versão do cache em sw.js.
