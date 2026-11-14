@@ -1,0 +1,17 @@
+CONFIGURAÇÃO SEPARADA DE MÍDIAS
+
+1. Abra config-midias.js em seu editor.
+2. Em imagensDoSite, altere src para trocar a capa ou imagens das seções.
+3. Em publicacoes, edite título (title), categoria (category), legenda (description) e caminhos (image, thumb, video).
+4. Para incluir uma publicação, copie um objeto da lista e use um id numérico que ainda não existe.
+5. Para vídeos use video: "assets/seu-video.mp4" e escolha uma capa em image e thumb.
+6. Coloque os arquivos na pasta assets/. Pode usar uma URL HTTPS no lugar do caminho.
+7. Edite ordemDestaques para escolher quais IDs aparecem primeiro.
+8. Use nomes de categorias iguais aos da lista categorias.
+9. Atualize a versão CACHE em sw.js ao publicar novas mídias.
+
+O HTML já carrega a configuração antes de script.js.
+posts.json é apenas uma cópia de referência e não controla mais a galeria.
+As fotos de seção também têm src no HTML como fallback; com JavaScript ativado, config-midias.js prevalece.
+
+ATENÇÃO: algumas mídias citadas no projeto não foram incluídas no ZIP original. Consulte MIDIAS_AUSENTES.txt.
