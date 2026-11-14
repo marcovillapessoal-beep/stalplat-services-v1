@@ -1,4 +1,4 @@
-// As mídias são editadas em config-midias.js.
+// As mídias são editadas em config-midias.js. sadsa
 const STALPLAT_CONFIG = window.STALPLAT_CONFIG;
 if (!STALPLAT_CONFIG) {
     throw new Error("Carregue config-midias.js antes de script.js.");
